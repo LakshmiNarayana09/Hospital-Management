@@ -6,6 +6,7 @@ import {
 
 import type { Bill } from "../../types/Billing";
 import type { Patient } from "../../types/Patient";
+import DownloadBill from "./DownloadBill";
 
 interface BillingTableProps {
   bills: Bill[];
@@ -31,6 +32,15 @@ function BillingTable({
     );
 
     return patient?.name || "Unknown Patient";
+  };
+
+  const getPatient = (
+    patientId: string
+  ) => {
+    return patients.find(
+      (patient) =>
+        patient.id === patientId
+    );
   };
 
   const getStatusClass = (
@@ -172,6 +182,11 @@ function BillingTable({
                       >
                         <Pencil size={18} />
                       </button>
+
+                      <DownloadBill
+                        bill={bill}
+                        patient={getPatient(bill.patientId)}
+                      />
 
                       <button
                         onClick={() =>
@@ -324,6 +339,11 @@ function BillingTable({
                 >
                   <Pencil size={18} />
                 </button>
+
+                <DownloadBill
+                  bill={bill}
+                  patient={getPatient(bill.patientId)}
+                />
 
                 <button
                   onClick={() =>
