@@ -1,3 +1,4 @@
+
 import type { Patient } from "../../types/Patient";
 
 interface RecentPatientsProps {
@@ -21,7 +22,7 @@ function RecentPatients({
         </div>
       </div>
 
-      <div className="overflow-x-auto">
+      <div className="hidden overflow-x-auto md:block">
         <table className="w-full min-w-[700px] text-sm">
 
           <thead className="bg-gray-50">
@@ -88,6 +89,69 @@ function RecentPatients({
         </table>
       </div>
 
+      <div className="space-y-4 p-4 md:hidden">
+        {patients.map((patient) => (
+          <div
+            key={patient.id}
+            className="rounded-xl border bg-white p-4 shadow-sm"
+          >
+            <div className="flex items-center justify-between border-b pb-4">
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600">
+                  {patient.name.charAt(0).toUpperCase()}
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-800">
+                    {patient.name}
+                  </h3>
+
+                  <p className="text-xs text-blue-600">
+                    {patient.patientId}
+                  </p>
+                </div>
+              </div>
+
+              <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-medium text-red-600">
+                {patient.bloodGroup}
+              </span>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 py-4">
+              <div>
+                <p className="text-xs text-gray-500">
+                  Age
+                </p>
+
+                <p className="mt-1 text-sm font-medium text-gray-800">
+                  {patient.age}
+                </p>
+              </div>
+
+              <div>
+                <p className="text-xs text-gray-500">
+                  Gender
+                </p>
+
+                <p className="mt-1 text-sm font-medium text-gray-800">
+                  {patient.gender}
+                </p>
+              </div>
+
+              <div className="col-span-2">
+                <p className="text-xs text-gray-500">
+                  Registered Date
+                </p>
+
+                <p className="mt-1 text-sm font-medium text-gray-800">
+                  {patient.registeredDate}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
       {patients.length === 0 && (
         <div className="p-8 text-center text-sm text-gray-500">
           No recent patients found.
@@ -98,3 +162,4 @@ function RecentPatients({
 }
 
 export default RecentPatients;
+
