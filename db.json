@@ -1,0 +1,500 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "patientId": "PAT001",
+      "name": "Rahul Kumar",
+      "age": 35,
+      "gender": "Male",
+      "phone": "9876543210",
+      "email": "rahul.kumar@gmail.com",
+      "address": "Bangalore, Karnataka",
+      "bloodGroup": "O+",
+      "emergencyContact": "9876500001",
+      "medicalHistory": "Diabetes",
+      "department": "Cardiology",
+      "registeredDate": "2026-08-25"
+    },
+    {
+      "id": "2",
+      "patientId": "PAT002",
+      "name": "Priya Sharma",
+      "age": 28,
+      "gender": "Female",
+      "phone": "9876543211",
+      "email": "priya.sharma@gmail.com",
+      "address": "Mysore, Karnataka",
+      "bloodGroup": "A+",
+      "emergencyContact": "9876500002",
+      "medicalHistory": "No significant medical history",
+      "department": "Neurology",
+      "registeredDate": "2026-08-24"
+    },
+    {
+      "id": "3",
+      "patientId": "PAT003",
+      "name": "Arjun Reddy",
+      "age": 42,
+      "gender": "Male",
+      "phone": "9876543212",
+      "email": "arjun.reddy@gmail.com",
+      "address": "Hyderabad, Telangana",
+      "bloodGroup": "B+",
+      "emergencyContact": "9876500003",
+      "medicalHistory": "Hypertension",
+      "department": "Cardiology",
+      "registeredDate": "2026-08-23"
+    },
+    {
+      "id": "4",
+      "patientId": "PAT004",
+      "name": "Sneha Patel",
+      "age": 24,
+      "gender": "Female",
+      "phone": "9876543213",
+      "email": "sneha.patel@gmail.com",
+      "address": "Chennai, Tamil Nadu",
+      "bloodGroup": "AB+",
+      "emergencyContact": "9876500004",
+      "medicalHistory": "Asthma",
+      "department": "General Medicine",
+      "registeredDate": "2026-08-22"
+    },
+    {
+      "id": "5",
+      "patientId": "PAT005",
+      "name": "Vikram Singh",
+      "age": 51,
+      "gender": "Male",
+      "phone": "9876543214",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bangalore, Karnataka",
+      "bloodGroup": "O-",
+      "emergencyContact": "9876500005",
+      "medicalHistory": "High cholesterol",
+      "department": "Cardiology",
+      "registeredDate": "2026-08-21"
+    },
+    {
+      "id": "6",
+      "patientId": "PAT006",
+      "name": "Ananya Rao",
+      "age": 31,
+      "gender": "Female",
+      "phone": "9876543215",
+      "email": "ananya.rao@gmail.com",
+      "address": "Bangalore, Karnataka",
+      "bloodGroup": "A-",
+      "emergencyContact": "9876500006",
+      "medicalHistory": "Migraine",
+      "department": "Neurology",
+      "registeredDate": "2026-08-20"
+    },
+    {
+      "id": "7",
+      "patientId": "PAT007",
+      "name": "Karthik Nair",
+      "age": 39,
+      "gender": "Male",
+      "phone": "9876543216",
+      "email": "karthik.nair@gmail.com",
+      "address": "Kochi, Kerala",
+      "bloodGroup": "B-",
+      "emergencyContact": "9876500007",
+      "medicalHistory": "Knee pain",
+      "department": "Orthopedics",
+      "registeredDate": "2026-08-19"
+    },
+    {
+      "id": "8",
+      "patientId": "PAT008",
+      "name": "Meera Joshi",
+      "age": 8,
+      "gender": "Female",
+      "phone": "9876543217",
+      "email": "meera.joshi@gmail.com",
+      "address": "Pune, Maharashtra",
+      "bloodGroup": "O+",
+      "emergencyContact": "9876500008",
+      "medicalHistory": "Seasonal allergies",
+      "department": "Pediatrics",
+      "registeredDate": "2026-08-18"
+    },
+    {
+      "id": "9",
+      "patientId": "PAT009",
+      "name": "Rohit Verma",
+      "age": 46,
+      "gender": "Male",
+      "phone": "9876543218",
+      "email": "rohit.verma@gmail.com",
+      "address": "Delhi, India",
+      "bloodGroup": "A+",
+      "emergencyContact": "9876500009",
+      "medicalHistory": "Diabetes and hypertension",
+      "department": "General Medicine",
+      "registeredDate": "2026-08-17"
+    },
+    {
+      "id": "10",
+      "patientId": "PAT010",
+      "name": "Divya Krishnan",
+      "age": 34,
+      "gender": "Female",
+      "phone": "9876543219",
+      "email": "divya.krishnan@gmail.com",
+      "address": "Bangalore, Karnataka",
+      "bloodGroup": "AB-",
+      "emergencyContact": "9876500010",
+      "medicalHistory": "Thyroid disorder",
+      "department": "General Medicine",
+      "registeredDate": "2026-08-16"
+    },
+    {
+      "id": "11",
+      "patientId": "PAT011",
+      "name": "Manoj Kumar",
+      "age": 63,
+      "gender": "Male",
+      "phone": "9876543220",
+      "email": "manoj.kumar@gmail.com",
+      "address": "Bangalore, Karnataka",
+      "bloodGroup": "O+",
+      "emergencyContact": "9876500011",
+      "medicalHistory": "Heart disease",
+      "department": "Cardiology",
+      "registeredDate": "2026-08-15"
+    },
+    {
+      "id": "12",
+      "patientId": "PAT012",
+      "name": "Aisha Khan",
+      "age": 17,
+      "gender": "Female",
+      "phone": "9876543221",
+      "email": "aisha.khan@gmail.com",
+      "address": "Hyderabad, Telangana",
+      "bloodGroup": "B+",
+      "emergencyContact": "9876500012",
+      "medicalHistory": "No significant medical history",
+      "department": "Pediatrics",
+      "registeredDate": "2026-08-14"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "doctorId": "DOC001",
+      "name": "Dr. Rajesh Kumar",
+      "specialization": "Cardiologist",
+      "department": "Cardiology",
+      "experience": 12,
+      "phone": "9876501234",
+      "email": "rajesh@hospital.com",
+      "availability": "Available"
+    },
+    {
+      "id": "2",
+      "doctorId": "DOC002",
+      "name": "Dr. Priya Sharma",
+      "specialization": "Neurologist",
+      "department": "Neurology",
+      "experience": 8,
+      "phone": "9876501235",
+      "email": "priya@hospital.com",
+      "availability": "Available"
+    },
+    {
+      "id": "3",
+      "doctorId": "DOC003",
+      "name": "Dr. Arun Reddy",
+      "specialization": "Orthopedic",
+      "department": "Orthopedics",
+      "experience": 10,
+      "phone": "9876501236",
+      "email": "arun@hospital.com",
+      "availability": "Unavailable"
+    },
+    {
+      "id": "4",
+      "doctorId": "DOC004",
+      "name": "Dr. Sneha Rao",
+      "specialization": "Pediatrician",
+      "department": "Pediatrics",
+      "experience": 6,
+      "phone": "9876501237",
+      "email": "sneha@hospital.com",
+      "availability": "Available"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "appointmentId": "APT001",
+      "patientId": "1",
+      "patientName": "Rahul Kumar",
+      "doctorId": "1",
+      "doctorName": "Dr. Priya Sharma",
+      "date": "2026-08-27",
+      "time": "10:30",
+      "reason": "Chest pain",
+      "status": "Scheduled"
+    },
+    {
+      "id": "2",
+      "appointmentId": "APT002",
+      "patientId": "2",
+      "patientName": "Anjali Reddy",
+      "doctorId": "2",
+      "doctorName": "Dr. Arjun Rao",
+      "date": "2026-08-27",
+      "time": "11:00",
+      "reason": "Severe headache",
+      "status": "Completed"
+    },
+    {
+      "id": "3",
+      "appointmentId": "APT003",
+      "patientId": "3",
+      "patientName": "Vikram Singh",
+      "doctorId": "3",
+      "doctorName": "Dr. Sneha Patel",
+      "date": "2026-08-28",
+      "time": "09:30",
+      "reason": "Knee pain",
+      "status": "Scheduled"
+    },
+    {
+      "id": "4",
+      "appointmentId": "APT004",
+      "patientId": "4",
+      "patientName": "Meera Nair",
+      "doctorId": "4",
+      "doctorName": "Dr. Karthik Menon",
+      "date": "2026-08-28",
+      "time": "12:30",
+      "reason": "Fever and cold",
+      "status": "Cancelled"
+    },
+    {
+      "id": "5",
+      "appointmentId": "APT005",
+      "patientId": "5",
+      "patientName": "Suresh Babu",
+      "doctorId": "1",
+      "doctorName": "Dr. Priya Sharma",
+      "date": "2026-08-29",
+      "time": "15:00",
+      "reason": "Regular heart checkup",
+      "status": "Scheduled"
+    },
+    {
+      "id": "6",
+      "appointmentId": "APT006",
+      "patientId": "6",
+      "patientName": "Divya Ramesh",
+      "doctorId": "5",
+      "doctorName": "Dr. Neha Kapoor",
+      "date": "2026-08-29",
+      "time": "16:30",
+      "reason": "Child health checkup",
+      "status": "No-show"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "departmentId": "DEP001",
+      "name": "Cardiology",
+      "description": "Department specializing in heart and cardiovascular diseases."
+    },
+    {
+      "id": "2",
+      "departmentId": "DEP002",
+      "name": "Neurology",
+      "description": "Department specializing in disorders of the nervous system."
+    },
+    {
+      "id": "3",
+      "departmentId": "DEP003",
+      "name": "Orthopedics",
+      "description": "Department specializing in bones, joints and muscles."
+    },
+    {
+      "id": "4",
+      "departmentId": "DEP004",
+      "name": "Pediatrics",
+      "description": "Department providing healthcare for children."
+    },
+    {
+      "id": "5",
+      "departmentId": "DEP005",
+      "name": "General Medicine",
+      "description": "Department providing general medical diagnosis and treatment."
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "1",
+      "prescriptionId": "PRE001",
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2026-08-27",
+      "diagnosis": "Hypertension",
+      "medicines": [
+        {
+          "id": "M001",
+          "name": "Amlodipine",
+          "dosage": "5 mg",
+          "duration": "30 days",
+          "instructions": "Take once daily after breakfast"
+        },
+        {
+          "id": "M002",
+          "name": "Telmisartan",
+          "dosage": "40 mg",
+          "duration": "30 days",
+          "instructions": "Take once daily before breakfast"
+        }
+      ],
+      "notes": "Monitor blood pressure regularly."
+    },
+    {
+      "id": "2",
+      "prescriptionId": "PRE002",
+      "patientId": "2",
+      "doctorId": "2",
+      "date": "2026-08-26",
+      "diagnosis": "Migraine",
+      "medicines": [
+        {
+          "id": "M003",
+          "name": "Sumatriptan",
+          "dosage": "50 mg",
+          "duration": "7 days",
+          "instructions": "Take when migraine symptoms occur"
+        }
+      ],
+      "notes": "Avoid known migraine triggers and maintain proper hydration."
+    },
+    {
+      "id": "3",
+      "prescriptionId": "PRE003",
+      "patientId": "3",
+      "doctorId": "3",
+      "date": "2026-08-25",
+      "diagnosis": "Knee Pain",
+      "medicines": [
+        {
+          "id": "M004",
+          "name": "Paracetamol",
+          "dosage": "500 mg",
+          "duration": "5 days",
+          "instructions": "Take twice daily after meals"
+        },
+        {
+          "id": "M005",
+          "name": "Calcium",
+          "dosage": "500 mg",
+          "duration": "30 days",
+          "instructions": "Take once daily after dinner"
+        }
+      ],
+      "notes": "Avoid excessive physical activity and follow physiotherapy advice."
+    },
+    {
+      "id": "4",
+      "prescriptionId": "PRE004",
+      "patientId": "4",
+      "doctorId": "5",
+      "date": "2026-08-24",
+      "diagnosis": "Seasonal Allergy",
+      "medicines": [
+        {
+          "id": "M006",
+          "name": "Cetirizine",
+          "dosage": "10 mg",
+          "duration": "10 days",
+          "instructions": "Take once daily at night"
+        }
+      ],
+      "notes": "Avoid known allergens."
+    },
+    {
+      "id": "5",
+      "prescriptionId": "PRE005",
+      "patientId": "5",
+      "doctorId": "1",
+      "date": "2026-08-23",
+      "diagnosis": "High Cholesterol",
+      "medicines": [
+        {
+          "id": "M007",
+          "name": "Atorvastatin",
+          "dosage": "10 mg",
+          "duration": "30 days",
+          "instructions": "Take once daily at night"
+        }
+      ],
+      "notes": "Follow a low-fat diet and exercise regularly."
+    }
+  ],
+  "bills": [
+    {
+      "id": "1",
+      "billId": "BILL001",
+      "patientId": "1",
+      "billDate": "2026-08-28",
+      "consultationCharges": 500,
+      "medicineCharges": 1200,
+      "labCharges": 800,
+      "otherCharges": 200,
+      "totalAmount": 2700,
+      "paidAmount": 2700,
+      "paymentStatus": "Paid",
+      "description": "General consultation and laboratory tests"
+    },
+    {
+      "id": "2",
+      "billId": "BILL002",
+      "patientId": "2",
+      "billDate": "2026-08-28",
+      "consultationCharges": 700,
+      "medicineCharges": 900,
+      "labCharges": 600,
+      "otherCharges": 0,
+      "totalAmount": 2200,
+      "paidAmount": 1000,
+      "paymentStatus": "Partially Paid",
+      "description": "Cardiology consultation"
+    },
+    {
+      "id": "3",
+      "billId": "BILL003",
+      "patientId": "3",
+      "billDate": "2026-08-27",
+      "consultationCharges": 400,
+      "medicineCharges": 500,
+      "labCharges": 300,
+      "otherCharges": 100,
+      "totalAmount": 1300,
+      "paidAmount": 0,
+      "paymentStatus": "Pending",
+      "description": "General medical checkup"
+    },
+    {
+      "id": "4",
+      "billId": "BILL004",
+      "patientId": "4",
+      "billDate": "2026-08-26",
+      "consultationCharges": 600,
+      "medicineCharges": 800,
+      "labCharges": 400,
+      "otherCharges": 150,
+      "totalAmount": 1950,
+      "paidAmount": 1950,
+      "paymentStatus": "Paid",
+      "description": "Orthopedic consultation"
+    }
+  ]
+}
